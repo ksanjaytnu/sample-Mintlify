@@ -1,0 +1,65 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "name": "LattAICE Documentation",
+  "theme": "mint",
+  "colors": {
+    "primary": "#2563EB",
+    "light": "#60A5FA",
+    "dark": "#1D4ED8"
+  },
+  "navigation": {
+    "groups": [
+      {
+        "group": "Getting Started",
+        "pages": [
+          "pages/introduction/IntroductionPage",
+          "pages/sign-in/SignInPage",
+          "pages/create-workspace/CreateWorkspacePage",
+          "pages/quick-start/overview/overview",
+          "pages/quick-start/connections/connections",
+          "pages/quick-start/infra-provider/infra-provider",
+          "pages/quick-start/llm-provider/llm-provider",
+          "pages/quick-start/observability/observability"
+        ]
+      },
+      {
+        "group": "Workspace",
+        "pages": [
+          "pages/dashboard/Dashboard",
+          "pages/dataset/Dataset",
+          "pages/prompts/prompts",
+          "pages/optimized-prompts/OptimizedPrompts",
+          "pages/agent-analysis/agentanalysis",
+          "pages/usage-analysis/usageanalysis",
+          "pages/in-progress/InProgressPage",
+          "pages/results/Results"
+        ]
+      },
+      {
+        "group": "Evaluations",
+        "pages": [
+          "pages/evals/Evals",
+          "pages/evals/SelectAgent",
+          "pages/evals/SelectDataset",
+          "pages/evals/CandidateModels",
+          "pages/evals/JudgeModel",
+          "pages/evals/AWSRegion"
+        ]
+      },
+      {
+        "group": "Manage",
+        "pages": [
+          "pages/manage/Connections",
+          "pages/manage/Members",
+          "pages/manage/ModelConfig"
+        ]
+      },
+      {
+        "group": "Security",
+        "pages": [
+          "pages/security/Security"
+        ]
+      }
+    ]
+  }
+}
